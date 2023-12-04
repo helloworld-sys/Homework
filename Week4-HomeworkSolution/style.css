@@ -1,0 +1,148 @@
+*
+{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+    text-align-last: center;
+    align-items: center;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-size: cover;
+    background-image: url("abstract1.jpeg");
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #fff;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    align-items: center;
+    border-radius: 32px;
+}
+header {
+  padding: 50px;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  color: rgb(238, 242, 243);
+  text-transform: uppercase;
+  background-color: #003147;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  margin-bottom: 25px;
+}
+h3 , .title2
+{
+    color: #fff;
+    background-color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+}
+h4 {
+  color:#003147;
+  padding: 18px;
+}
+#textIntro {
+  margin:auto;
+  padding: 18px;
+  width: 50%;
+}
+img.medium {
+  margin-top: 24px;
+  height: 50%;
+  width: 50%;
+  border-radius: 24px;
+}
+.wrapper{
+  height: 100%px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+  padding: 30px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ul, ol{
+  width: 100%;
+  list-style-position: inside;
+  padding: 50px;
+  text-align: center;
+}
+input[type="checkbox"]{
+  appearance: none;
+  -webkit-appearance: none;
+  min-height: 24px;
+  min-width: 24px;
+  background-color: #d5d5d5;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+label{
+  color: #474747;
+  font-size: 24px;
+  font-family: 'Poppins' ,sans-serif;
+  font-weight: 900;
+  cursor: pointer;
+}
+input[type="checkbox"]:after{
+  font-family: "Font Awesome 5 Free";
+  content: "\f14a";
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  display: none;
+}
+Input[type="checkbox"]:hover{
+  background-color: #404142;
+}
+input[type="checkbox"]:checked{
+  background-color: #5bcd3e;
+}
+input[type="checkbox"]:checked:after{
+  display: block;
+}
+button {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Poppins', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+button:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
