@@ -1,0 +1,50 @@
+html {
+    background-color: antiquewhite;
+}
+body {
+    text-align: center;
+    font-size: 18px; }
+h1 {
+    font-size: 50px;
+}
+img {
+  width: 50%;
+  height: 50%;
+}
+div {
+    border: 2px solid burlywood;
+    margin: 10px;
+    justify-content: center;
+  }
+p {
+  padding-left: 15%;
+  padding-right: 15%;
+    text-align: left;
+}
+ul {
+  padding-inline: 5%;
+  text-align: left;
+  list-style-position: inside;
+}
+#earlyLife{
+  margin: auto;
+}
+#introPic {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+}
+#bio {
+    display: flex;
+    justify-content: center;
+}
+#bio > li {
+  padding: 2px;
+}
+#andrePic2 {
+  max-width: 500px;
+}
+#pro {
+    width: auto;
+}
